@@ -10,7 +10,13 @@
 #include <iomanip>
 #include <fstream>
 #include <time.h>
-#include "/System/Library/Frameworks/vecLib.framework/Headers/cblas.h"
+#include <string.h>
+
+extern "C" {
+#include <cblas.h>
+}
+
+
 
 using namespace std;
 
